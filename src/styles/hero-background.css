@@ -1,0 +1,19 @@
+@keyframes slideBackground {
+    0% {
+      background-position: 0% 0;
+    }
+    100% {
+      background-position: 100% 0;
+    }
+  }
+  
+  .bg-slide {
+    background-image: 
+    url('https://cdn.shopify.com/s/files/1/0070/7032/files/ecommerce_20marketing_20tools_1848x970.png?v=1711560945');
+      /* url('https://static.vecteezy.com/system/resources/previews/002/006/605/original/paper-art-shopping-online-on-smartphone-and-new-buy-sale-promotion-pink-backgroud-for-banner-market-ecommerce-free-vector.jpg'); */
+    background-size: 200% 100%; /* Makes the background size large enough to cover the entire container */
+    background-repeat: no-repeat;
+    background-position: 0% 0;
+    animation: slideBackground 50s linear infinite; /* 6s total, for smooth transition */
+  }
+  
